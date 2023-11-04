@@ -1,0 +1,227 @@
+/* style.css */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png'); /* Ganti 'path/to/your-image.png' dengan URL gambar Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+h1:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #007BFF;
+}
+
+table, th, td:hover {
+    border-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style untuk menu navigasi */
+/* Style untuk menu navigasi */
+/* Style untuk menu navigasi */
+nav {
+    display: flex;
+    justify-content: center; /* Pusatkan teks horizontal di dalam elemen <nav> */
+    align-items: center; /* Pusatkan teks vertical di dalam elemen <nav> */
+    
+    background-color: #007BFF; /* Latar belakang menu */
+    border-radius: 10px; /* Menggunakan sudut bulat */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Warna teks putih */
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 10px; /* Ubah ukuran teks tautan */
+}
+
+nav a:hover {
+    color: #0056b3; /* Warna teks berubah saat dihover */
+}
+
+
+
+/* Tambahkan style untuk tabel */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #007BFF;
+}
+
+table, th, td:hover {
+    border-color: #0056b3;
+}
+
+/* Perbarui style untuk header (th) */
+th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Perbarui style untuk sel data (td) */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ganti warna latar belakang setiap baris tabel secara bergantian */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Ganti warna latar belakang baris ketika dihover */
+tr:hover {
+    background-color: #d4d4d4;
+}
+/* Gaya tombol */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Style untuk form */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+            flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style untuk input */
+input[type="id"],
+input[type="nama"],
+input[type="kelas"],
+input[type="kriteria1"],
+input[type="kriteria2"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="id"]:focus,
+input[type="nama"]:focus,
+input[type="kelas"]:focus,
+input[type="kriteria1"]:focus,
+input[type="kriteria2"]:focus {
+    border-color: #007BFF;
+}
+
+/* Gaya tombol */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Gaya dropdown */
+select {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 103%;
+    font-size: 16px;
+    background-color: #fff;
+    appearance: none; /* Menghilangkan tombol default di Firefox */
+}
+
+/* Gaya panah dropdown (opsional) */
+select:after {
+    content: "\25BC"; /* Tambahkan panah ke bawah */
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+    pointer-events: none;
+}
